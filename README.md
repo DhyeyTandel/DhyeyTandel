@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hey there! I'm Dhyey Tandel
 
-<!--
-**DhyeyTandel/DhyeyTandel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Computer Science & Engineering Student @ Manipal Institute of Technology, Bengaluru  
+AI Engineer and Full-Stack Developer building scalable, production-ready systems end-to-end.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+### Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,ts,py,js,spring,fastapi,nextjs,react,tailwind,postgres,mysql,mongodb,redis,kafka,docker,kubernetes,githubactions,jenkins,aws,azure&theme=dark&perline=10" alt="Tech Stack"/>
+</p>
+
+
