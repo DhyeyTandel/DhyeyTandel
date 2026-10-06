@@ -1,62 +1,122 @@
-<h1 align="center">Dhyey Tandel</h1>
-
 <p align="center">
-  <b>Software Engineer · Backend &amp; Distributed Systems · Applied ML</b><br/>
-  B.Tech CSE @ Manipal Institute of Technology, Bengaluru (2027) · Ex-SWE Intern @ Schneider Electric
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:EE5308,100:DE3D9E&text=Dhyey%20Tandel&fontColor=F4F0E9&fontSize=56&fontAlignY=36&desc=Backend%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Applied%20ML&descAlignY=58&descSize=18&animation=fadeIn" alt="Dhyey Tandel"/>
 </p>
 
 <p align="center">
-  <a href="https://dhyeytandel.in"><img src="https://img.shields.io/badge/Portfolio-dhyeytandel.in-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://linkedin.com/in/dhyey-tandel"><img src="https://img.shields.io/badge/LinkedIn-dhyey--tandel-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:dhyeytandel2005@gmail.com"><img src="https://img.shields.io/badge/Email-dhyeytandel2005%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/AWS-Certified%20Cloud%20Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner"/>
+  <a href="https://dhyeytandel.in">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=EE5308&center=true&vCenter=true&width=640&lines=Built+a+message+queue+that+does+170k%2B+msgs%2Fsec;Zero+acked-message+loss+under+chaos+tests;Ex-SWE+Intern+%40+Schneider+Electric;B.Tech+CSE+%40+MIT+Bengaluru+'27" alt="Typing intro"/>
+  </a>
 </p>
 
-I like building the parts of a system that have to keep working when things go wrong: commit logs that survive torn writes, transport that survives packet loss, route planners that repair themselves when someone cancels. Most of my repos are built from first principles and come with the tests and benchmarks to back up what the README says.
+<p align="center">
+  <a href="https://dhyeytandel.in"><img src="https://img.shields.io/badge/Portfolio-dhyeytandel.in-17140F?style=for-the-badge&logo=googlechrome&logoColor=EE5308" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/dhyey-tandel"><img src="https://img.shields.io/badge/LinkedIn-dhyey--tandel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:dhyeytandel2005@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EE5308?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner"/>
+  <img src="https://komarev.com/ghpvc/?username=DhyeyTandel&style=for-the-badge&color=DE3D9E&label=Profile+views" alt="Profile views"/>
+</p>
 
-**Open to:** SDE / backend / ML engineering internships and new-grad roles for 2027.
+<br/>
 
----
+<table>
+<tr>
+<td width="58%" valign="top">
 
-## 💼 Experience
+### 👋 About me
 
-**Schneider Electric** · Software Engineering Intern · May 2025 to Jul 2025
-- Automated cloud ingestion of ~**40M inventory items/week** into Azure, replacing a manual cross-team process.
-- Cut asset-lifecycle reporting queries from about a week to **12 hours** through query rewrites and indexing.
-- Wrote test suites for **40 API endpoints**, catching **20+ integration bugs** before release.
+I like building the parts of a system that have to keep working when things go wrong: commit logs that survive torn writes, transport that survives packet loss, route planners that repair themselves when someone cancels.
 
----
+Most of my repos are built from first principles and ship with the tests and benchmarks to back up what the README says.
 
-## 🛠️ Featured work
+🎯 **Open to** SDE, backend and ML engineering roles for 2027<br/>
+📍 Bengaluru, India
 
-### [FluxMQ](https://github.com/DhyeyTandel/FluxMQ) · distributed message queue from scratch
-`Python` `asyncio` `TCP` `Hypothesis`
-- Partitioned append-only commit log, consumer groups with rebalancing, leader/follower replication with ISR tracking.
-- Custom binary wire protocol with pipelining and batching: **400 → 170,000+ msgs/sec (425x)** at **8.2 ms p99**.
-- `acks=all` with automatic leader failover; chaos tests kill live brokers mid-stream with **zero acknowledged-message loss**.
+</td>
+<td width="42%" valign="top">
 
-### [Cabal](https://github.com/DhyeyTandel/Cabal) · employee transport planner
-`Java 17` `Spring Boot` `PostgreSQL` `Flyway` `OSRM`
-- REST service solving a heterogeneous-fleet capacitated vehicle routing problem with ride-time limits.
-- Pipeline of classic heuristics benchmarked against optimal; repairs plans on late bookings and cancellations without reshuffling everyone.
+### 💼 Experience
 
-### [MiniNET](https://github.com/DhyeyTandel/MiniNET) · network protocol simulator
-`Python` `asyncio`
-- Go-Back-N reliable transport and Bellman-Ford distance-vector routing (poison reverse) over a deterministic lossy link layer.
-- Byte-identical 50 KB transfers across a 3-hop path at **20% data loss + 10% ACK loss**; topology converges in **2.12 s**.
+**Schneider Electric**<br/>
+<sub>Software Engineering Intern · May to Jul 2025</sub>
 
-### [NSE Arena](https://github.com/DhyeyTandel/NSE_ARENA) · real-time paper-trading competitions
-`FastAPI` `React` `PostgreSQL` `Redis Pub/Sub` `WebSockets` `Docker`
-- Live NSE market data streamed over WebSockets, seasonal leaderboards with multi-factor trader scoring.
-- A custom PineScript-lite engine (SMA, EMA, RSI, MACD, Bollinger) and Gemini-powered agents that trade alongside users.
+- **40M items/week** ingested into Azure, automated
+- Reporting queries: **1 week → 12 hours**
+- **40 API endpoints** tested, **20+ bugs** caught pre-release
 
-### [AI Shield](https://github.com/DhyeyTandel/AI-Shield) · ML intrusion detection and prevention
-`Python` `scikit-learn` `Scapy` `Flask`
-- Live packet capture, classifiers trained on CICIDS2017, automatic blocking of flagged hosts, and a real-time dashboard.
+</td>
+</tr>
+</table>
 
-### [Accessible Components](https://github.com/DhyeyTandel/a11y-hard-parts) · the ARIA patterns people get wrong
-`JavaScript` `WCAG 2.2` · [live demo](https://dhyeytandel.github.io/a11y-hard-parts/)
-- Eleven zero-dependency components (focus traps, comboboxes, live regions, sliders) with **187 browser-run tests**, verified with VoiceOver.
+## 🚀 Featured work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚡ [FluxMQ](https://github.com/DhyeyTandel/FluxMQ)
+Distributed message queue built from scratch: commit log, consumer groups, leader/follower replication.
+
+**170,000+ msgs/sec** (425x) at **8.2 ms p99**, zero acknowledged-message loss when brokers are killed mid-stream.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/asyncio-17140F?style=flat-square"/> <img src="https://img.shields.io/badge/Hypothesis-17140F?style=flat-square"/>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🚖 [Cabal](https://github.com/DhyeyTandel/Cabal)
+Employee transport planner solving a heterogeneous-fleet vehicle routing problem with ride-time limits.
+
+Heuristics **benchmarked against optimal**; repairs plans on cancellations without reshuffling everyone.
+
+<img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🌐 [MiniNET](https://github.com/DhyeyTandel/MiniNET)
+Network stack simulator: Go-Back-N transport and Bellman-Ford routing over a deterministic lossy link.
+
+Byte-identical transfers at **20% data + 10% ACK loss**; 3-hop topology converges in **2.12 s**.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/asyncio-17140F?style=flat-square"/>
+
+</td>
+<td width="50%" valign="top">
+
+#### 📈 [NSE Arena](https://github.com/DhyeyTandel/NSE_ARENA)
+Real-time paper-trading competitions on live NSE data, with seasonal leaderboards.
+
+Custom **PineScript-lite engine** and **Gemini-powered agents** that trade alongside users.
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛡️ [AI Shield](https://github.com/DhyeyTandel/AI-Shield)
+ML intrusion detection and prevention on live packet capture.
+
+Classifiers trained on **CICIDS2017**, automatic blocking of flagged hosts, real-time dashboard.
+
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+
+</td>
+<td width="50%" valign="top">
+
+#### ♿ [Accessible Components](https://github.com/DhyeyTandel/a11y-hard-parts)
+Eleven ARIA patterns people get wrong: focus traps, comboboxes, live regions, sliders.
+
+Zero dependencies, **187 browser-run tests**, VoiceOver-verified. [Live demo →](https://dhyeytandel.github.io/a11y-hard-parts/)
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/WCAG%202.2-17140F?style=flat-square"/>
+
+</td>
+</tr>
+</table>
 
 <details>
 <summary><b>More projects</b></summary>
@@ -71,15 +131,34 @@ I like building the parts of a system that have to keep working when things go w
 
 </details>
 
----
-
 ## 🧰 Tech stack
 
-- **Languages:** Python · Java · TypeScript · JavaScript · C · SQL
-- **Backend:** FastAPI · Spring Boot · Flask · Node.js · asyncio · REST · WebSockets
-- **Data & infra:** PostgreSQL · Redis · MongoDB · MySQL · Docker · AWS (Lambda, S3, API Gateway, SAM) · Azure · GitHub Actions
-- **ML:** scikit-learn · XGBoost · PyTorch · YOLOv8
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,spring,fastapi,flask,nodejs,react&theme=dark&perline=10" alt="Languages and frameworks"/><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=10" alt="Data, infra and ML"/>
+</p>
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,spring,fastapi,flask,nodejs,react,postgres,redis,mongodb,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=10" alt="Tech stack icons"/>
+## 📊 GitHub activity
+
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="Contribution overview"/>
+</p>
+<p align="center">
+  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repos per language"/>
+  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="49%" alt="Most committed languages"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=DhyeyTandel&theme=dark&hide_border=true&background=17140F&ring=EE5308&fire=EE5308&currStreakLabel=EE5308&sideLabels=F4F0E9&dates=A89E90&currStreakNum=F4F0E9&sideNums=F4F0E9" width="80%" alt="Contribution streak"/>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DhyeyTandel/DhyeyTandel/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DhyeyTandel/DhyeyTandel/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/DhyeyTandel/DhyeyTandel/output/github-snake.svg" alt="Contribution snake"/>
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:DE3D9E,100:EE5308&section=footer" alt=""/>
 </p>
