@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://dhyeytandel.in">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=EE5308&center=true&vCenter=true&width=640&lines=Built+a+message+queue+that+does+170k%2B+msgs%2Fsec;Zero+acked-message+loss+under+chaos+tests;Ex-SWE+Intern+%40+Schneider+Electric;B.Tech+CSE+%40+MIT+Bengaluru+'27" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=EE5308&center=true&vCenter=true&width=640&lines=Software+Engineer+%C2%B7+Backend+%26+Distributed+Systems;Ex-SWE+Intern+%40+Schneider+Electric;B.Tech+CSE+%40+MIT+Bengaluru+'27;Open+to+SDE+roles+for+2027" alt="Typing intro"/>
   </a>
 </p>
 
