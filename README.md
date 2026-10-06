@@ -13,7 +13,6 @@
   <a href="https://linkedin.com/in/dhyey-tandel"><img src="https://img.shields.io/badge/LinkedIn-dhyey--tandel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:dhyeytandel2005@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-EE5308?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Cloud Practitioner"/>
-  <img src="https://komarev.com/ghpvc/?username=DhyeyTandel&style=for-the-badge&color=DE3D9E&label=Profile+views" alt="Profile views"/>
 </p>
 
 <br/>
