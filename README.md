@@ -62,6 +62,18 @@ Distributed message queue built from scratch: commit log, consumer groups, leade
 </td>
 <td width="50%" valign="top">
 
+#### 🦅 [Kestrel](https://github.com/DhyeyTandel/kestrel)
+OpenAI-compatible LLM inference server for Apple Silicon: Rust router over a Python MLX worker, binary IPC on a unix socket.
+
+Admission control cuts **p99 time-to-first-token 2.6x** under overload; IPC overhead measured at **0.32% of a decode step**.
+
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/MLX-17140F?style=flat-square&logo=apple&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### 🚖 [Cabal](https://github.com/DhyeyTandel/Cabal)
 Employee transport planner solving a heterogeneous-fleet vehicle routing problem with ride-time limits.
 
@@ -70,8 +82,6 @@ Heuristics **benchmarked against optimal**; repairs plans on cancellations witho
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🌐 [MiniNET](https://github.com/DhyeyTandel/MiniNET)
@@ -82,6 +92,8 @@ Byte-identical transfers at **20% data + 10% ACK loss**; 3-hop topology converge
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/asyncio-17140F?style=flat-square"/>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 📈 [NSE Arena](https://github.com/DhyeyTandel/NSE_ARENA)
@@ -90,18 +102,6 @@ Real-time paper-trading competitions on live NSE data, with seasonal leaderboard
 Custom **PineScript-lite engine** and **Gemini-powered agents** that trade alongside users.
 
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ [AI Shield](https://github.com/DhyeyTandel/AI-Shield)
-ML intrusion detection and prevention on live packet capture.
-
-Classifiers trained on **CICIDS2017**, automatic blocking of flagged hosts, real-time dashboard.
-
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
 
 </td>
 <td width="50%" valign="top">
@@ -123,6 +123,7 @@ Zero dependencies, **187 browser-run tests**, VoiceOver-verified. [Live demo →
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [AI Shield](https://github.com/DhyeyTandel/AI-Shield) | ML intrusion detection and prevention on live packet capture, trained on CICIDS2017 | scikit-learn, Flask, Scapy |
 | [Resume Screener](https://github.com/DhyeyTandel/Resume_Screener) | Human-in-the-loop resume screening with prompt-injection detection and an append-only audit log | FastAPI, React, Ollama |
 | [Claude Usage Tracker](https://github.com/DhyeyTandel/Claude_Usage_Tracker) | Menu-bar widget for Claude Code limits and Anthropic API spend, with encrypted key storage | Electron, TypeScript |
 | [AutoAssess](https://github.com/DhyeyTandel/autoassess) | Vehicle-damage segmentation and severity grading for insurance claims | YOLOv8-seg, PyTorch |
@@ -133,8 +134,8 @@ Zero dependencies, **187 browser-run tests**, VoiceOver-verified. [Live demo →
 ## 🧰 Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,spring,fastapi,flask,nodejs,react&theme=dark&perline=10" alt="Languages and frameworks"/><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,mysql,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=10" alt="Data, infra and ML"/>
+  <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,rust,spring,fastapi,flask,nodejs&theme=dark&perline=10" alt="Languages and frameworks"/><br/>
+  <img src="https://skillicons.dev/icons?i=react,postgres,redis,mongodb,mysql,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=11" alt="Data, infra and ML"/>
 </p>
 
 ## 📊 GitHub activity
