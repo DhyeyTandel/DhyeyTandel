@@ -135,7 +135,7 @@ Zero dependencies, **187 browser-run tests**, VoiceOver-verified. [Live demo →
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,java,ts,js,c,rust,spring,fastapi,flask,nodejs&theme=dark&perline=10" alt="Languages and frameworks"/><br/>
-  <img src="https://skillicons.dev/icons?i=react,postgres,redis,mongodb,mysql,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=11" alt="Data, infra and ML"/>
+  <img src="https://skillicons.dev/icons?i=react,postgres,redis,mongodb,docker,aws,azure,githubactions,pytorch,sklearn&theme=dark&perline=10" alt="Data, infra and ML"/>
 </p>
 
 ## 📊 GitHub activity
